@@ -23,19 +23,18 @@ The application is currently running and accessible at:
 - Nginx web server
 - Serves static HTML frontend
 - Accessible to users via HTTP
-
+![](docs/LoginPage.png)
 ### Tier 2 – Application Layer
 - Flask-based REST API
 - Handles application logic
 - Communicates with the database
+![](docs/Successpage.png)
 
 ### Tier 3 – Data Layer
 - MySQL database
 - Stores application data
+![](docs/MySQLdatabase.png)
 
-![](docs/LoginPage.png)
-
-![](docs/Successpage.png)
 
 
 ## 📐 Architecture Flow (Logical)
@@ -69,6 +68,7 @@ EC2 Instance
 ---
 
 ## Project Structure
+```bash
 Sujal-Pandharpatte/
 ├── frontend/
 │ ├── index.html
@@ -79,7 +79,7 @@ Sujal-Pandharpatte/
 ├── docker-compose.yml
 └── README.md
 └── docs/images
-
+```
 
 ---
 
